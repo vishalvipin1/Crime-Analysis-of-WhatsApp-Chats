@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Display</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        body{
+            background-image:url('../static/bg1.jpg');
+            
+        }
+        h1,h2{
+            color: antiquewhite;
+        }
+        tr,th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width:500px;
+        }
+        /* setting the text-align property to center*/
+        h1,td ,th{
+            padding: 5px;
+            text-align: center;
+        }
+       
+        .result{
+            width:50%;
+            text-align: center;
+            margin-left: 25%;
+            margin-top: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>WhatApp Chat Negativity analysis</h1>
+<div class="result">
+    <h2>Results</h2>
+    <table class="table table-success table-striped">
+        <tr>
+            <th>Phone number
+            </th>
+            <th>Negative Index</th>
+        </tr>
+        
+            {% for key in result%}
+        <tr >
+            <td>{{ key[0] }}</td>
+            <td>{{ key[1] }}</td>
+        </tr>
+        {% endfor %}
+        </table>
+</div>
+  
+</body>
+</html>
