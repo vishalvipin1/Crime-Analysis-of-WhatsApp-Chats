@@ -12,7 +12,7 @@ The primary objective of this project is to ease the analysis of WhatsApp data a
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- [@vishalvipin1](https://www.github.com/vishalvipin1)
 
 
 ## Appendix
