@@ -10,11 +10,6 @@ This project is created for those who want to analyze the behaviour of negative 
 The primary objective of this project is to ease the analysis of WhatsApp data and find the behavior of the individuals involved in the data therefore reducing cyber-crimes. To create a system that will automatically retrieve the data from the mobile device. The retrieving part will be done WhatsApp db/key extractor. The retrieved data will be analyzed for behaviors and hate words. To build a python program will detect the emotions and hate words using module such as NTLK. The desired output is to generate a list of individuals who can be potential threat to commit cyber-crime or crime in particular.
 
 
-## Authors
-
-- [@vishalvipin1](https://www.github.com/vishalvipin1)
-
-
 ## Appendix
 
 Refer to https://github.com/YuvrajRaghuvanshiS/WhatsApp-Key-Database-Extractor for extraction of WhatsApp Database without root (For Android)
